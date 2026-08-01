@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+@theme {
+	--font-sans: 'TikTok Sans', ui-sans-serif, system-ui, sans-serif;
+	--font-serif: 'Playfair Display', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+
+.swiper-slide-thumb-active img {
+	border: 1px solid black; /* Replace #yourColor with your desired border color */
+}

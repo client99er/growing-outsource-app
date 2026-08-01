@@ -1,0 +1,15 @@
+// TODO: use productRecommendations for upsell
+// TODO: use image dynamic: url(transform: { maxWidth: 400, ...})
+// TODO: Product detail page's product reco
+// TODO: Integrate SMS spamming via Klaviyo
+// TODO: Integrate judgeme for review section
+// TODO: Check waterfall
+// TODO: Move ReasonsTo in Shop level metafield [DONE]
+// TODO: Product list filtering: sort-by		[DONE]
+// TODO: Footer logic							[IN PROGRESS]
+// TODO: Other pages
+// TODO: SEO
+// TODO: Cart product suggest image not aspect
+TypeError: Cannot read properties of null (reading 'metafields')
+    at /Users/jimov/web/onboard/src/routes/(main)/collections/[handle]/+page.svelte:17:29
+    at _page (/Users/jimov/web/onboard/src/routes/(main)/collections/[handle]/+page.svelte:30:3)
